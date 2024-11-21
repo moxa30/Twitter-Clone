@@ -1,0 +1,67 @@
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 20px;
+    background-image: url("twitter.jpg");
+      
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(173, 222, 235);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:  #d1eeaa;
+    color: rgb(8, 7, 7);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e5afb6;
+}
+
+.tweet {
+    border-bottom: 1px solid #e1e8ed;
+    padding: 10px 0;
+}
+
+.tweet:last-child {
+    border: none;
+}
+
+.tweet-content {
+    margin-bottom: 5px;
+}
+
+.like-button {
+    background: none;
+    border: none;
+    color:  #141b1a;
+    cursor: pointer;
+}
+
+.like-count {
+    margin-left: 5px;
+}
